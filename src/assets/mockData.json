@@ -1,0 +1,30 @@
+[
+  {
+    "type": "MainHeader",
+    "value": "Sample Blog"
+  },
+  {
+    "type": "bodyContent",
+    "value": "<p><strong style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Donec eget turpis porta neque fringilla sollicitudin lacinia eu ligula. Phasellus quis lacus a ipsum bibendum pellentesque. Duis tincidunt leo in magna euismod mollis. Nam blandit felis odio, non faucibus nulla aliquam sit amet. Aenean imperdiet lorem et varius malesuada</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">. Mauris sagittis nulla elit, vitae molestie </span><u style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">nulla semper eget. Etiam gravida lobortis sollicitudin.</u><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\"> Aliquam nibh purus, lobortis condimentum arcu id, lobortis venenatis mauris. Morbi dui tellus, tincidunt quis iaculis </span><em style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">vestibulum, euismod vel lectus</em><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">.</span></p>"
+  },
+  {
+    "type": "image",
+    "url": "https://placehold.co/400",
+    "altText": "Sample Image loading form placehold.com",
+    "imageSize": 400
+  },
+  {
+    "type": "bodyContent",
+    "value": "<p><strong style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Donec eget turpis porta neque fringilla sollicitudin lacinia eu ligula. Phasellus quis lacus a ipsum bibendum pellentesque. Duis tincidunt leo in magna euismod mollis. Nam blandit felis odio, non faucibus nulla aliquam sit amet. Aenean imperdiet lorem et varius malesuada</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">. Mauris sagittis nulla elit, vitae molestie </span><u style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">nulla semper eget. Etiam gravida lobortis sollicitudin.</u><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\"> Aliquam nibh purus, lobortis condimentum arcu id, lobortis venenatis mauris. Morbi dui tellus, tincidunt quis iaculis </span><em style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">vestibulum, euismod vel lectus</em><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">.</span></p>"
+  },
+  {
+    "type": "bodyContent",
+    "value": "<p><strong style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Donec eget turpis porta neque fringilla sollicitudin lacinia eu ligula. Phasellus quis lacus a ipsum bibendum pellentesque. Duis tincidunt leo in magna euismod mollis. Nam blandit felis odio, non faucibus nulla aliquam sit amet. Aenean imperdiet lorem et varius malesuada</strong><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">. Mauris sagittis nulla elit, vitae molestie </span><u style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">nulla semper eget. Etiam gravida lobortis sollicitudin.</u><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\"> Aliquam nibh purus, lobortis condimentum arcu id, lobortis venenatis mauris. Morbi dui tellus, tincidunt quis iaculis </span><em style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">vestibulum, euismod vel lectus</em><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">.</span></p>"
+  },
+  {
+    "type": "image",
+    "url": "https://placehold.co/600",
+    "altText": "Sample Image loading form placehold.com",
+    "imageSize": 600
+  }
+]

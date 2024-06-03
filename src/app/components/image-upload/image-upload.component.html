@@ -1,0 +1,23 @@
+<div class="image_uploader">
+  <p-buttonGroup *ngIf="url">
+    <p-button label="Small" (onClick)="changeWidth(200)" size="small" />
+    <p-button label="Medium" (onClick)="changeWidth(400)" size="small" />
+    <p-button label="Large" (onClick)="changeWidth(800)" size="small" />
+  </p-buttonGroup>
+  <div>
+    <img [src]="url" [height]="imageSize" />
+  </div>
+  <div>
+    <div>
+      <input type="file" (change)="onSelectFile($event)" />
+    </div>
+    <div class="mt-3">
+      <input
+        type="text"
+        placeholder="Image Alt Text"
+        pInputText
+        [(ngModel)]="altText"
+      />
+    </div>
+  </div>
+</div>

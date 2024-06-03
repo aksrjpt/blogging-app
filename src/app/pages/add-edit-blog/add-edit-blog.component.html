@@ -1,0 +1,37 @@
+<div [formGroup]="blog">
+  <div
+    formArrayName="blogContent"
+    *ngFor="
+      let blogData of this.blogForm?.value;
+      let i = index;
+      trackBy: trackByIndex
+    "
+  >
+    <div [formGroupName]="i">
+      <div class="blog_body_content">
+        <app-blog-header
+          *ngIf="blogData.type === 'MainHeader'"
+          [headerValue]="blog.controls.blogContent.controls[i]"
+        ></app-blog-header>
+      </div>
+      <div class="blog_body_content">
+        <app-text-editor
+          *ngIf="blogData.type === 'bodyContent'"
+          [contentValue]="blog.controls.blogContent.controls[i]"
+        ></app-text-editor>
+      </div>
+      <div class="blog_body_content">
+        <app-image-upload
+          *ngIf="blogData.type === 'image'"
+          [imageDetails]="blog.controls.blogContent.controls[i]"
+        ></app-image-upload>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p-speedDial [radius]="10" [model]="items" direction="right" />
+
+<div class="submit_button">
+  <p-button label="Submit" (onClick)="saveBlog()" size="small" />
+</div>

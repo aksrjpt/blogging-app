@@ -1,0 +1,16 @@
+<div>
+  <div *ngFor="let item of blogData$ | async">
+    <div *ngIf="item.type === 'MainHeader'">
+      <h1>{{ item.value }}</h1>
+    </div>
+    <div *ngIf="item.type === 'bodyContent'" [innerHTML]="item.value"></div>
+    <div *ngIf="item.type === 'image'" class="flex justify-content-center">
+      <div>
+        <img [src]="item.url" [height]="item.imageSize" />
+        <div class="flex justify-content-center image_alt_content">
+          {{ item.altText }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
